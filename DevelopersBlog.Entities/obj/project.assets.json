@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "DevelopersBlog.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/DevelopersBlog.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevelopersBlog.Shared.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DevelopersBlog.Shared/1.0.0": {
+      "type": "project",
+      "path": "../DevelopersBlog.Shared/DevelopersBlog.Shared.csproj",
+      "msbuildProject": "../DevelopersBlog.Shared/DevelopersBlog.Shared.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "DevelopersBlog.Shared >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\asus\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Shared\\DevelopersBlog.Shared.csproj": {
+              "projectPath": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Shared\\DevelopersBlog.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
