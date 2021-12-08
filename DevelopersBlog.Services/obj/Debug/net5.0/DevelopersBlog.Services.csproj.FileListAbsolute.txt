@@ -1,0 +1,12 @@
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\bin\Debug\net5.0\DevelopersBlog.Services.deps.json
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\bin\Debug\net5.0\DevelopersBlog.Services.dll
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\bin\Debug\net5.0\ref\DevelopersBlog.Services.dll
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\bin\Debug\net5.0\DevelopersBlog.Services.pdb
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\obj\Debug\net5.0\DevelopersBlog.Services.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\obj\Debug\net5.0\DevelopersBlog.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\obj\Debug\net5.0\DevelopersBlog.Services.AssemblyInfoInputs.cache
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\obj\Debug\net5.0\DevelopersBlog.Services.AssemblyInfo.cs
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\obj\Debug\net5.0\DevelopersBlog.Services.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\obj\Debug\net5.0\DevelopersBlog.Services.dll
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\obj\Debug\net5.0\ref\DevelopersBlog.Services.dll
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\obj\Debug\net5.0\DevelopersBlog.Services.pdb
