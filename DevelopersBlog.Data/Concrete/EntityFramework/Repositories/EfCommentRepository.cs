@@ -5,17 +5,16 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DevelopersBlog.Data.Concrete
+namespace DevelopersBlog.Data.Concrete.EntityFramework.Repositories
 {
-    public class ArticleRepository : EfEntityRepositoryBase<Article>, IArticleRepository
+    public class EfCommentRepository : EfEntityRepositoryBase<Comment>, ICommentRepository
     {
-        public ArticleRepository(DbContext context) : base(context)
+        public EfCommentRepository(DbContext context) : base(context)
         {
-
+                
         }
     }
 }
