@@ -10,5 +10,6 @@ namespace DevelopersBlog.Data.Abstract
 {
     public interface IArticleRepository : IEntityRepository<Article>
     {
+        
     }
 }
