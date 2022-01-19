@@ -4,6 +4,147 @@
     "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Mvc\\DevelopersBlog.Mvc.csproj": {}
   },
   "projects": {
+    "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Data\\DevelopersBlog.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Data\\DevelopersBlog.Data.csproj",
+        "projectName": "DevelopersBlog.Data",
+        "projectPath": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Data\\DevelopersBlog.Data.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Entities\\DevelopersBlog.Entities.csproj": {
+                "projectPath": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Entities\\DevelopersBlog.Entities.csproj"
+              },
+              "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Shared\\DevelopersBlog.Shared.csproj": {
+                "projectPath": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Shared\\DevelopersBlog.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Entities\\DevelopersBlog.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Entities\\DevelopersBlog.Entities.csproj",
+        "projectName": "DevelopersBlog.Entities",
+        "projectPath": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Entities\\DevelopersBlog.Entities.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Shared\\DevelopersBlog.Shared.csproj": {
+                "projectPath": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Shared\\DevelopersBlog.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Mvc\\DevelopersBlog.Mvc.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +153,143 @@
         "projectPath": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Mvc\\DevelopersBlog.Mvc.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Mvc\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Services\\DevelopersBlog.Services.csproj": {
+                "projectPath": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Services\\DevelopersBlog.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Services\\DevelopersBlog.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Services\\DevelopersBlog.Services.csproj",
+        "projectName": "DevelopersBlog.Services",
+        "projectPath": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Services\\DevelopersBlog.Services.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Data\\DevelopersBlog.Data.csproj": {
+                "projectPath": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Data\\DevelopersBlog.Data.csproj"
+              },
+              "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Entities\\DevelopersBlog.Entities.csproj": {
+                "projectPath": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Entities\\DevelopersBlog.Entities.csproj"
+              },
+              "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Shared\\DevelopersBlog.Shared.csproj": {
+                "projectPath": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Shared\\DevelopersBlog.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Shared\\DevelopersBlog.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Shared\\DevelopersBlog.Shared.csproj",
+        "projectName": "DevelopersBlog.Shared",
+        "projectPath": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Shared\\DevelopersBlog.Shared.csproj",
+        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asus\\source\\repos\\DevelopersBlog\\DevelopersBlog.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +320,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,9 +337,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
