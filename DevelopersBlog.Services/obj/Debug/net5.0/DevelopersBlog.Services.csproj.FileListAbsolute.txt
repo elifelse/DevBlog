@@ -10,3 +10,10 @@ C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\obj\Debug\net5
 C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\obj\Debug\net5.0\DevelopersBlog.Services.dll
 C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\obj\Debug\net5.0\ref\DevelopersBlog.Services.dll
 C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\obj\Debug\net5.0\DevelopersBlog.Services.pdb
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\bin\Debug\net5.0\DevelopersBlog.Data.dll
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\bin\Debug\net5.0\DevelopersBlog.Entities.dll
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\bin\Debug\net5.0\DevelopersBlog.Shared.dll
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\bin\Debug\net5.0\DevelopersBlog.Data.pdb
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\bin\Debug\net5.0\DevelopersBlog.Entities.pdb
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\bin\Debug\net5.0\DevelopersBlog.Shared.pdb
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Services\obj\Debug\net5.0\DevelopersBlog.Services.csproj.CopyComplete
