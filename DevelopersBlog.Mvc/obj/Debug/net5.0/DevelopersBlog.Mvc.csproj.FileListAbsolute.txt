@@ -394,3 +394,6 @@ C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Mvc\obj\Debug\net5.0\Ra
 C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Mvc\obj\Debug\net5.0\DevelopersBlog.Mvc.RazorTargetAssemblyInfo.cs
 C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Mvc\obj\Debug\net5.0\DevelopersBlog.Mvc.Views.pdb
 C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Mvc\obj\Debug\net5.0\DevelopersBlog.Mvc.csproj.CopyComplete
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_LayoutCssPartial.cshtml.g.cs
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_LayoutJsPartial.cshtml.g.cs
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_LayoutSideBarNav.cshtml.g.cs
