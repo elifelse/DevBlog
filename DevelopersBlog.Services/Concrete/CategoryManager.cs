@@ -28,10 +28,9 @@ namespace DevelopersBlog.Services.Concrete
             var category = _mapper.Map<Category>(categoryAddDto);
             category.CreatedByName = createdByName;
             category.ModifiedByName = createdByName;
-            await _unitOfWork.Categories.AddAsync(category)
-            .ContinueWith(t => _unitOfWork.SaveAsync());
+            await _unitOfWork.Categories.AddAsync(category);
+            await _unitOfWork.SaveAsync();
 
-            //await _unitOfWork.SaveAsync();
             return new Result(ResultStatus.Success, $"{categoryAddDto.Name} adlı kategori başarıyla eklenmiştir.");
         }
 
@@ -44,7 +43,9 @@ namespace DevelopersBlog.Services.Concrete
                 category.IsDeleted = true;
                 category.ModifiedByName = modifiedByName;
                 category.ModifiedDate = DateTime.Now;
-                await _unitOfWork.Categories.UpdateAsync(category).ContinueWith(t => _unitOfWork.SaveAsync());
+                await _unitOfWork.Categories.UpdateAsync(category);
+                await _unitOfWork.SaveAsync();
+
                 return new Result(ResultStatus.Success, $"{category.Name} adlı kategori başarıyla silinmiştir.");
             }
 
@@ -76,7 +77,7 @@ namespace DevelopersBlog.Services.Concrete
                 return new DataResult<CategoryListDto>(ResultStatus.Success, new CategoryListDto
                 {
                     Categories = categories,
-                    ResultStatus = ResultStatus.er
+                    ResultStatus = ResultStatus.Success
                 });
             }
 
@@ -126,7 +127,9 @@ namespace DevelopersBlog.Services.Concrete
 
             if (category != null)
             {
-                await _unitOfWork.Categories.DeleteAsync(category).ContinueWith(t => _unitOfWork.SaveAsync());
+                await _unitOfWork.Categories.DeleteAsync(category);
+                await _unitOfWork.SaveAsync();
+
                 return new Result(ResultStatus.Success, $"{category.Name} adlı kategori başarıyla veritabanından silinmiştir.");
             }
 
@@ -137,7 +140,9 @@ namespace DevelopersBlog.Services.Concrete
         {
             var category = _mapper.Map<Category>(categoryUpdateDto);
             category.ModifiedByName = modifiedByName;
-            await _unitOfWork.Categories.UpdateAsync(category).ContinueWith(t => _unitOfWork.SaveAsync());
+            await _unitOfWork.Categories.UpdateAsync(category);
+            await _unitOfWork.SaveAsync();
+
             return new Result(ResultStatus.Success, $"{categoryUpdateDto.Name} adlı kategori başarıyle güncellenmiştir.");
         }
     }
