@@ -398,3 +398,4 @@ C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Mvc\obj\Debug\net5.0\Ra
 C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_LayoutJsPartial.cshtml.g.cs
 C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_LayoutSideBarNavPartial.cshtml.g.cs
 C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
+C:\Users\asus\source\repos\DevelopersBlog\DevelopersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Category\_CategoryAddPartial.cshtml.g.cs
